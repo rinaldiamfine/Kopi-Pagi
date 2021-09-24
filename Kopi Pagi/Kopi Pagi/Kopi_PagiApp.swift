@@ -1,6 +1,6 @@
 //
-//  kopi_pagi_iosApp.swift
-//  kopi-pagi-ios
+//  Kopi_PagiApp.swift
+//  Kopi Pagi
 //
 //  Created by Rinaldi LNU on 24/09/21.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct kopi_pagi_iosApp: App {
+struct Kopi_PagiApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  kopi-pagi-ios
+//  Kopi Pagi
 //
 //  Created by Rinaldi LNU on 24/09/21.
 //
