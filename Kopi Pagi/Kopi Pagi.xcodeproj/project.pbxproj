@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		905C047F270978F900690E84 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 905C047D270978F900690E84 /* DataModel.xcdatamodeld */; };
+		905C04812709793D00690E84 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905C04802709793D00690E84 /* PersistenceController.swift */; };
+		905C048427097A2100690E84 /* GlobalConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905C048327097A2100690E84 /* GlobalConfiguration.swift */; };
+		905C048627097FD700690E84 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905C048527097FD700690E84 /* NavBarView.swift */; };
+		905C04892709A31500690E84 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905C04882709A31500690E84 /* QuoteView.swift */; };
+		905C048D2709A35300690E84 /* QuoteNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905C048C2709A35300690E84 /* QuoteNavBarView.swift */; };
 		90E4E34126FDC32E000B21E1 /* Kopi_PagiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4E34026FDC32E000B21E1 /* Kopi_PagiApp.swift */; };
 		90E4E34326FDC32E000B21E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4E34226FDC32E000B21E1 /* ContentView.swift */; };
 		90E4E34526FDC32F000B21E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E4E34426FDC32F000B21E1 /* Assets.xcassets */; };
 		90E4E34826FDC32F000B21E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E4E34726FDC32F000B21E1 /* Preview Assets.xcassets */; };
+		90E69A782705142700FEF567 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E69A772705142700FEF567 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		905C047E270978F900690E84 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		905C04802709793D00690E84 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		905C048327097A2100690E84 /* GlobalConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConfiguration.swift; sourceTree = "<group>"; };
+		905C048527097FD700690E84 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		905C04882709A31500690E84 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		905C048C2709A35300690E84 /* QuoteNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteNavBarView.swift; sourceTree = "<group>"; };
 		90E4E33D26FDC32E000B21E1 /* Kopi Pagi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kopi Pagi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E4E34026FDC32E000B21E1 /* Kopi_PagiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kopi_PagiApp.swift; sourceTree = "<group>"; };
 		90E4E34226FDC32E000B21E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90E4E34426FDC32F000B21E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90E4E34726FDC32F000B21E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90E4E34926FDC32F000B21E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E69A772705142700FEF567 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		905C04872709A30500690E84 /* Quote */ = {
+			isa = PBXGroup;
+			children = (
+				905C04882709A31500690E84 /* QuoteView.swift */,
+				905C048C2709A35300690E84 /* QuoteNavBarView.swift */,
+			);
+			name = Quote;
+			sourceTree = "<group>";
+		};
 		90E4E33426FDC32E000B21E1 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +75,12 @@
 		90E4E33F26FDC32E000B21E1 /* Kopi Pagi */ = {
 			isa = PBXGroup;
 			children = (
+				90E69A76270513F100FEF567 /* ViewModel */,
+				90E69A75270513D700FEF567 /* View */,
+				90E69A74270513CD00FEF567 /* Model */,
 				90E4E34026FDC32E000B21E1 /* Kopi_PagiApp.swift */,
 				90E4E34226FDC32E000B21E1 /* ContentView.swift */,
+				905C048327097A2100690E84 /* GlobalConfiguration.swift */,
 				90E4E34426FDC32F000B21E1 /* Assets.xcassets */,
 				90E4E34926FDC32F000B21E1 /* Info.plist */,
 				90E4E34626FDC32F000B21E1 /* Preview Content */,
@@ -67,6 +94,32 @@
 				90E4E34726FDC32F000B21E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90E69A74270513CD00FEF567 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				905C047D270978F900690E84 /* DataModel.xcdatamodeld */,
+				905C04802709793D00690E84 /* PersistenceController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90E69A75270513D700FEF567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				905C04872709A30500690E84 /* Quote */,
+				90E69A772705142700FEF567 /* TabBarView.swift */,
+				905C048527097FD700690E84 /* NavBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90E69A76270513F100FEF567 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +192,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E4E34326FDC32E000B21E1 /* ContentView.swift in Sources */,
+				905C048427097A2100690E84 /* GlobalConfiguration.swift in Sources */,
+				905C047F270978F900690E84 /* DataModel.xcdatamodeld in Sources */,
+				905C04892709A31500690E84 /* QuoteView.swift in Sources */,
+				90E69A782705142700FEF567 /* TabBarView.swift in Sources */,
+				905C048627097FD700690E84 /* NavBarView.swift in Sources */,
+				905C048D2709A35300690E84 /* QuoteNavBarView.swift in Sources */,
 				90E4E34126FDC32E000B21E1 /* Kopi_PagiApp.swift in Sources */,
+				905C04812709793D00690E84 /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +388,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		905C047D270978F900690E84 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				905C047E270978F900690E84 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 905C047E270978F900690E84 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 90E4E33526FDC32E000B21E1 /* Project object */;
 }
